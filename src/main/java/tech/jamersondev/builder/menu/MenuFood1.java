@@ -23,13 +23,4 @@ public class MenuFood1 extends FoodBuilder {
         food.setDesserts("Ice Cream");
     }
 
-    @Override
-    public void builderBreakfast() {
-
-    }
-
-    @Override
-    public void builderGift() {
-
-    }
 }

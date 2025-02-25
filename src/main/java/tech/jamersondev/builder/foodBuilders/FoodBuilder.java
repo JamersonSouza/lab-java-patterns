@@ -13,16 +13,16 @@ public abstract class FoodBuilder {
         return food;
     }
 
-    public abstract void builderDrink();
+    public void builderDrink() {};
 
-    public abstract void builderFrenchFries();
+    public void builderFrenchFries(){};
 
-    public abstract void builderBurgers();
+    public void builderBurgers(){};
 
-    public abstract void builderDesserts();
+    public void builderDesserts(){};
 
-    public abstract void builderBreakfast();
+    public void builderBreakfast(){};
 
-    public abstract void builderGift();
+    public void builderGift(){};
 
 }
