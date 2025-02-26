@@ -1,4 +1,4 @@
-package tech.jamersondev.builder.model;
+package tech.jamersondev.builder_api_fluent.model;
 
 public class Food {
 
@@ -12,7 +12,14 @@ public class Food {
     public Food() {
     }
 
-
+    public Food(String burgers, boolean frenchFries, String drinks, String desserts, String breakfast, String gift) {
+        this.burgers = burgers;
+        this.frenchFries = frenchFries;
+        this.drinks = drinks;
+        this.desserts = desserts;
+        this.breakfast = breakfast;
+        this.gift = gift;
+    }
 
     public String getBurgers() {
         return burgers;
